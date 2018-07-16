@@ -1,0 +1,21 @@
+Virtual User Script started at : 2018-07-16 10:59:07
+TruClient Replay (build 0171) for LoadRunner 12.57.0, build 0281. OS: Windows 2016, Browser: Firefox, initialized on 2018/07/16 at 10:59:05 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "Navigate" started.
+t=00003245ms: ** 1: Navigate to "www.advantageonlineshopping.com" ** started    [MsgId: MMSG-205180]
+t=00004563ms: ** 1: Navigate to www.advantageonlineshopping.com ** successfully completed with end event 'Step network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Navigate" ended with a "Pass" status (Duration: 1.4440 Wasted Time: 0.5460).
+t=00005083ms: ** 2: Click on SPEAKERS link ** started    [MsgId: MMSG-205180]
+t=00008136ms: ** 2: Click on SPEAKERS link ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+t=00008731ms: ** 3: Click on image (1) image ** started    [MsgId: MMSG-205180]
+t=00009545ms: ** 3: Click on image (1) image ** successfully completed with end event 'Step network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "AddtoCart" started.
+t=00010163ms: ** 4: Click on ADD TO CART button ** started    [MsgId: MMSG-205180]
+t=00010484ms: ** 4: Click on ADD TO CART button ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "AddtoCart" ended with a "Pass" status (Duration: 0.4360 Wasted Time: 0.2010).
+t=00010992ms: ** 5: Click on HOME link ** started    [MsgId: MMSG-205180]
+t=00011785ms: ** 5: Click on HOME link ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.
